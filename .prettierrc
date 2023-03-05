@@ -1,0 +1,5 @@
+.prettierrc.js
+{
+  "semi": false,
+  "singleQuote": true
+}
