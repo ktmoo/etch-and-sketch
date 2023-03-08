@@ -32,7 +32,9 @@ let rainbowIntervalSpeed = 1;
 
 
 
-const DEFAULT_COLOR = "#333333";
+
+
+const DEFAULT_COLOR = "#fefefe";
 const DEFAULT_MODE = "color";
 const DEFAULT_SIZE = 16;
 
@@ -175,7 +177,7 @@ function clearCanvas() {
 
 createGrid(gridSize);
 
-colorPicker.addEventListener("input", changeColor)
+colorPicker.addEventListener("input", changeColor);
 colorBtn.addEventListener("click", changeMode);
 rainbowBtn.addEventListener("click", changeMode);
 eraserBtn.addEventListener("click", changeMode);
